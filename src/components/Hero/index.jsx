@@ -3,9 +3,9 @@ import { h } from "preact";
 function Hero() {
   return (
     <section id="home" className="sm:px-10 px-2">
-      <div className="w-full max-w-7xl mx-auto bg-[#F9F9FC] py-24 px-20 flex flex-col justify-between md:flex-row items-center">
+      <div className="w-full max-w-7xl mx-auto bg-[#F9F9FC] py-12 md:py-24 px-10 md:px-20 flex flex-col justify-between md:flex-row items-center">
         <div className="md:w-1/2 md:pr-16 lg:pr-24">
-          <h1 className="text-6xl font-medium leading-tight text-center md:text-left">
+          <h1 className="text-4xl md:text-6xl font-medium leading-tight text-center md:text-left">
             I build digital
             <br />
             products
