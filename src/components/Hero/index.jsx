@@ -14,7 +14,7 @@ function Hero() {
           </h1>
         </div>
 
-        <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-lg mt-10 md:mt-0 flex justify-end">
+        <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-lg mt-10 md:mt-0 flex justify-center md:justify-end">
           <img
             class="object-cover object-center rounded-lg w-full h-full max-h-96 max-w-md"
             alt="hero"
