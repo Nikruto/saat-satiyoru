@@ -8,7 +8,7 @@ function Hero() {
                     <h1 className="text-6xl font-medium leading-tight text-center md:text-left">I build digital<br />products<br /> brands with<br /> <span className="text-blue-600">experience</span></h1>
                 </div>
 
-                <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-lg mt-10 md:mt-0">
+                <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-lg mt-10 md:mt-0 flex justify-end">
                     <img class="object-cover object-center rounded-lg w-full h-full max-h-96 max-w-md" alt="hero" src="/assets/saat.png" />
                 </div>
             </div>

@@ -5,20 +5,8 @@ function Nav() {
     <nav className="px-10">
       <div className="w-full max-w-7xl mx-auto flex items-center py-8">
         <div className="flex items-center">
-          <svg
-            width="19"
-            height="23"
-            viewBox="0 0 19 23"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15 21.25C7.8 21.25 2.66667 21.25 1 21.25V1.75C3.49971 2.26718 7.26548 3.93451 10.2638 7.25M15 21.25V4.75M15 21.25C15.1931 14.8768 13.0629 10.3452 10.2638 7.25M15 21.25H17.5V3.75L15 4.75M15 4.75L10.2638 7.25"
-              stroke="black"
-              stroke-width="2"
-            />
-          </svg>
-          <h1 className="ml-4">Company</h1>
+          <div className="w-4 h-4 rounded-full bg-[#2563EB]"></div>
+          <h1 className="ml-3 font-medium text-xl">ttenblocks</h1>
         </div>
 
         <div className="flex items-center ml-auto mr-0 md:mr-auto space-x-8">
@@ -80,6 +68,12 @@ function Nav() {
             </svg>
           </a>
         </div>
+      </div>
+      <div className="bg-[#F9F9FC] py-6">
+        <p className="text-center">
+          Designed by saat satıyo with{" "}
+          <span className="text-purple-600">Love</span>
+        </p>
       </div>
     </nav>
   );
