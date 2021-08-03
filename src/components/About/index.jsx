@@ -2,7 +2,7 @@ import { h } from "preact";
 
 function About() {
   return (
-    <section id="about" className="px-10">
+    <section id="about" className="sm:px-10 px-2">
       <div className="w-full max-w-7xl mx-auto bg-[#F9F9FC] py-12 px-10 flex flex-col justify-between md:flex-row items-center">
         <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-xl mt-10 md:mt-0 pr-10">
           <img

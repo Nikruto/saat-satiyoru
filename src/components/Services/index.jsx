@@ -2,7 +2,7 @@ import { h } from "preact";
 
 function Statistics() {
   return (
-    <section id="services" className="px-10">
+    <section id="services" className="sm:px-10 px-2">
       <div className="w-full max-w-7xl mx-auto py-24 flex flex-col items-center">
         <h1 className="font-medium text-4xl">Services</h1>
         <div className="flex flex-col md:grid md:grid-cols-3 items-center gap-16 mt-10">

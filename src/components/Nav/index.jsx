@@ -2,7 +2,7 @@ import { h } from "preact";
 
 function Nav() {
   return (
-    <nav className="px-10">
+    <nav className="sm:px-10 px-2">
       <div className="w-full max-w-7xl mx-auto flex flex-row md:items-center py-8">
         <div className="flex items-center">
           <svg
