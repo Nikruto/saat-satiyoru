@@ -3,13 +3,13 @@ import { h } from "preact";
 function Nav() {
   return (
     <nav className="px-10">
-      <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row md:items-center py-8">
+      <div className="w-full max-w-7xl mx-auto flex flex-row md:items-center py-8">
         <div className="flex items-center">
           <div className="w-4 h-4 rounded-full bg-[#2563EB]"></div>
           <h1 className="ml-3 font-medium text-xl">ttenblocks</h1>
         </div>
 
-        <div className="flex items-center mt-4 md:mt-0 md:ml-auto mr-0 md:mr-auto space-x-8">
+        <div className="hidden md:flex items-center mt-4 md:mt-0 md:ml-auto mr-0 md:mr-auto space-x-8">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
@@ -17,7 +17,7 @@ function Nav() {
           <a href="#contact">Contact</a>
         </div>
 
-        <div className="items-center space-x-6 hidden md:flex">
+        <div className="items-center space-x-6 flex ml-auto md:ml-0">
           <a target="_blank" href="https://facebook.com">
             <svg
               width="9"
