@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about" className="sm:px-10 px-2">
       <div className="w-full max-w-7xl mx-auto bg-[#F9F9FC] py-12 px-10 flex flex-col justify-between md:flex-row items-center">
-        <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-xl mt-10 md:mt-0 pr-10">
+        <div className="w-full md:w-1/2 lg:w-5/6 lg:max-w-xl mt-10 md:mt-0 md:pr-10">
           <img
             class="object-cover object-center rounded-lg w-full h-full max-h-96"
             alt="hero"
@@ -12,15 +12,19 @@ function About() {
           />
         </div>
         <div className="md:w-1/2 md:pr-24 mt-4 md:mt-0">
-          <p className="opacity-50 text-lg">About me</p>
-          <h1 className="font-medium text-3xl">Ali Saat Satuyoru Uysal</h1>
-          <p className="text-lg mt-4">
+          <p className="opacity-50 text-lg text-center md:text-left">
+            About me
+          </p>
+          <h1 className="font-medium text-3xl text-center md:text-left">
+            Ali Saat Satuyoru Uysal
+          </h1>
+          <p className="text-lg mt-4 text-center md:text-left">
             It’s me ali saat satuyoru uysal. I love designing new things, making
             something unique and selling{" "}
             <span className="px-1 bg-purple-100 text-purple-500">saating.</span>{" "}
             I can design anything you want like websites, webapps etc.
           </p>
-          <div className="mt-8 flex items-center space-x-6">
+          <div className="mt-8 flex items-center justify-center md:justify-start space-x-6">
             <a target="_blank" href="https://facebook.com">
               <svg
                 width="9"
