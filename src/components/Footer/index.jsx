@@ -2,7 +2,7 @@ import { h } from "preact";
 
 function Nav() {
   return (
-    <nav className="sm:px-10 px-2">
+    <footer className="sm:px-10 px-2">
       <div className="w-full max-w-7xl mx-auto flex flex-row md:items-center py-8">
         <div className="flex items-center">
           <div className="w-4 h-4 rounded-full bg-[#2563EB]"></div>
@@ -75,7 +75,7 @@ function Nav() {
           <span className="text-purple-600">Love</span>
         </p>
       </div>
-    </nav>
+    </footer>
   );
 }
 export default Nav;
